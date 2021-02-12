@@ -140,3 +140,5 @@ While it takes time to find the correct documentation, these functions made the 
 
 ### Design Achievements
 - **Re-vamped Apple's Design Philosophy**: As demonstrated in my colorscheme...
+
+https://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
