@@ -62,7 +62,11 @@
             .attr("cx", function (d) { return x(d.Weight); } )
             .attr("cy", function (d) { return y(d.MPG); } )
             .attr("r", function (d) { return d.Weight / 500;} )
-            .style("fill", "#69b3a2")
+            .style("fill", function (d) {   if(d.Manufacturer === "bmw") {return "#F3B6B3"}
+                                            else if(d.Manufacturer === "ford") {return "#CCCD8E"}
+                                            else if(d.Manufacturer === "honda") {return "#93D8BA"}
+                                            else if(d.Manufacturer === "mercedes") {return "#93D2F4"}
+                                            else return "#EDB0F2"})
             .style("opacity", 0.5)
 
     })
